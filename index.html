@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="head_shadow">
+				<div class="menu_user">
+					<ul class="menu">
+						<li>
+							<a href="#"><img src="img/icons.png" />&nbsp<span>主站</span></a>
+						</li>
+						<li>
+							<a href="#"><span>画友</span></a>
+						</li>
+						<li class="game_center">
+							<a href="#"><span>游戏中心</span></a>
+							<div class="game_center_content">
+								<div class="game_center_left">
+									<a href="#" class="game_left_top" title="碧蓝航线">
+										<p>碧蓝航线</p>
+									</a>
+									<div class="game_left_bottom">
+										<a href="#" class="left_bottom_1" title="命运-冠位指定(Fate/Go)">
+											<img src="img/game_3.png" />
+											<p>命运-冠</p>
+										</a>
+										<a href="#" class="left_bottom_2" title="崩坏3">
+											<img src="img/game_1.png" />
+											<p>崩坏3</p>
+										</a>
+										<a href="#" class="left_bottom_3" title="影之诗">
+											<img src="img/game_2.png" />
+											<p>影之诗</p>
+										</a>
+									</div>
+								</div>
+								<div class="game_center_right">
+									<img class="right_title" src="img/title.png" />
+									<img class="right_line" src="img/line.png" />
+									<a href="#">游戏论坛</a>
+									<ul>
+										<li id="game_list_1">
+											<a href="#">
+												<p>英雄传说：星之轨迹</p>
+											</a>
+										</li>
+										<li id="game_list_2">
+											<a href="#">
+												<p>超次元大海战</p>
+											</a>
+										</li>
+										<li id="game_list_3">
+											<a href="#">
+												<p>茜色世界中与君咏唱</p>
+											</a>
+										</li>
+										<li id="game_list_4">
+											<a href="#">
+												<p>全心爱你</p>
+											</a>
+										</li>
+										<li id="game_list_5">
+											<a href="#">
+												<p>闪耀暖暖</p>
+											</a>
+										</li>
+										<li id="game_list_6">
+											<a href="#">
+												<p>字母人</p>
+											</a>
+										</li>
+										<li id="game_list_7">
+											<a href="#">
+												<p>BanG Dream！</p>
+											</a>
+										</li>
+									</ul>
+									<img src="" id="game_list_img" />
+								</div>
+							</div>
+						</li>
+						<li class="live">
+							<a href="#"><span>直播</span></a>
+							<div class="live_content">
+								<div class="live_content_left">
+									<p>热门直播：</p>
+									<ul>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>梦醒三生梦</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>Yuri_喵四</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>玉少白</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>宫本狗雨</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>中国教育...</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div>
+													<div class="live_logo"></div><span></span>
+													<p>LIVE</p>
+												</div>
+												<p>宫本狗雨</p>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<span></span>
+								<div class="live_content_right">
+									<p>热门活动：</p>
+									<a href="#" class="live_activity_1" title="PK要不要">
+										<div></div>
+									</a>
+									<a href="#" class="live_activity_2" title="LPL 2018夏季赛">
+										<div></div>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#"><span>会员购</span></a>
+						</li>
+						<li>
+							<a href="#"><span>BML</span></a>
+						</li>
+						<li>
+							<a href="#"><span>BW</span></a>
+						</li>
+						<li class="DLAPP">
+							<a href="#"><img src="img/icons.png" />&nbsp<span>下载APP</span></a>
+							<div class="DLAPP_border">
+								<div class="DLAPP_QRcode"></div>
+							</div>
+						</li>
+					</ul>
+					<ul class="user">
+						<li class="portrait">
+							<a href="#">
+								<picture class="picture">
+									<source type="image/webp" srcset="img/user_portrait.webp">
+									<img class="image" src="img/user_portrait.jpg">
+								</picture>
+							</a>
+							<div class="portrait_content">
+								<p class="portrait_content_id">玩皮皮鳝的灵剑</p>
+								<a href="#" class="portrait_content_member">年度大会员</a>
+								<img src="img/icons.png" alt="" class="portrait_content_img_coin" />
+								<p class="portrait_content_img_coin_num">625</p>
+								<img src="img/icons.png" alt="" class="portrait_content_img_Bcoin" />
+								<p class="portrait_content_img_Bcoin_num">5</p>
+								<a href="#" class="portrait_content_mailbox"><span></span>
+									<div>
+										<div class="portrait_content_mailbox_tr1"></div>
+										<div class="portrait_content_mailbox_tr2"></div>
+										<p>前去绑定邮箱</p>
+									</div>
+								</a>
+								<a href="#" class="portrait_content_phone"><span></span>
+									<div>
+										<div class="portrait_content_phone_tr1"></div>
+										<div class="portrait_content_phone_tr2"></div>
+										<p>已绑定</p>
+									</div>
+								</a>
+								<div class="portrait_content_level">
+									<p class="portrait_content_level_Lv">等级</p>
+									<a href="#" id="portrait_content_level_a">
+										<span class="portrait_content_level_circle">4</span>
+										<progress max="100" value="0" class="portrait_content_level_rectangle"></progress>
+										<p class="portrait_content_level_now">7589</p>
+										<p class="portrait_content_level_slash">/</p>
+										<p class="portrait_content_level_all">10800</p>
+									</a>
+								</div>
+								<div class="portrait_content_tips" id="portrait_content_level_a_con">
+									<div class="portrait_content_tips_tr1"></div>
+									<div class="portrait_content_tips_tr2"></div>
+									<p class="portrait_content_tips_ex1">作为</p>
+									<p class="portrait_content_tips_ex2">LV4</p>
+									<p class="portrait_content_tips_ex3">，你可以</p>
+									<p class="portrait_content_tips_tip1">1、发射个性弹幕（彩色、高级、顶部、底部）</p>
+									<p class="portrait_content_tips_tip2">2、参与视频互动（评论、添加tag）</p>
+									<p class="portrait_content_tips_tip3">3、投稿成为偶像</p>
+									<a href="#">会员等级相关说明></a>
+								</div>
+								<span></span>
+								<ul class="portrait_content_menu">
+									<li class="portrait_content_menu_1">
+										<a href="#">
+											<img src="" />
+											<p>个人中心</p>
+										</a>
+									</li>
+									<li class="portrait_content_menu_2">
+										<a href="#">
+											<img src="" />
+											<p>投稿管理</p>
+										</a>
+									</li>
+									<li class="portrait_content_menu_3">
+										<a href="#">
+											<img src="" />
+											<p>B币钱包</p>
+										</a>
+									</li>
+									<li class="portrait_content_menu_4">
+										<a href="#">
+											<img src="" />
+											<p>直播中心</p>
+										</a>
+									</li>
+									<li class="portrait_content_menu_5">
+										<a href="#">
+											<img src="" />
+											<p>订单中心</p>
+										</a>
+									</li>
+								</ul>
+								<div class="logout">
+									<a href="#">
+										<p>退出</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="member">
+							<a href="#"><span>大会员</span></a>
+							<div class="member_content">
+								<p class="member_content_title">精彩推荐</p>
+								<div class="member_content_more">
+									<a href="#">
+										<p>更多</p><img src="" /></a>
+								</div>
+								<a href="#">
+									<picture class="picture">
+										<source type="image/webp" srcset="img/member_content_img2.webp">
+										<img class="member_content_img1" src="img/member_content_img2.jpg">
+									</picture>
+								</a>
+								<a href="#">
+									<picture class="picture">
+										<source type="image/webp" srcset="img/member_content_img1.webp">
+										<img class="member_content_img2" src="img/member_content_img1.jpg">
+									</picture>
+								</a>
+								<a href="#">
+									<picture class="picture">
+										<source type="image/webp" srcset="img/member_content_img3.webp">
+										<img class="member_content_img3" src="img/member_content_img3.jpg">
+									</picture>
+								</a>
+								<a href="#" class="member_content_a1">七月新番来袭，大会员年费半价！</a>
+								<a href="#" class="member_content_a2">玛丽与魔女之花 B站首播</a>
+								<a href="#" class="member_content_a3">正版音乐专辑 第二弹</a>
+							</div>
+						</li>
+						<li class="message">
+							<a href="#"><span>消息</span>
+								<div class="message_tips">
+									<p>2</p>
+								</div>
+							</a>
+							<div class="message_content">
+								<ul>
+									<li>
+										<a href="#">
+											<p>回复我的</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>@我的</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>收到的赞</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>系统通知</p><span>2</span></a>
+									</li>
+									<li>
+										<a href="#">
+											<p>我的消息</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="activity">
+							<a href="#"><span>动态</span></a>
+							<div class="activity_content">
+								<div class="activity_content_choice">
+									<button class="activity_content_choice_1">视频</button>
+									<button class="activity_content_choice_2">直播</button>
+									<button class="activity_content_choice_3">专栏</button>
+									<span class="activity_content_choice_tr"></span>
+									<span class="activity_content_choice_rec"></span>
+								</div>
+								<div class="activity_content_details">
+									<div class="activity_content_details_new">
+										<p>暂时没有新动态了哦！</p>
+									</div>
+									<div class="activity_content_details_seg">
+										<span class="activity_content_details_seg_s1"></span>
+										<p>历史动态</p>
+										<span class="activity_content_details_seg_s2"></span>
+									</div>
+									<div class="activity_content_details_history">
+										<ul id="activity_content_details_history_ul">
+											<li>
+												<a href="#" class="user_img" id="user_img_1">
+													<button class="activity_content_details_later" id="later_1"></button>
+													<p class="activity_content_details_hint" id="hint_1"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_2">
+													<button class="activity_content_details_later" id="later_2"></button>
+													<p class="activity_content_details_hint" id="hint_2"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_3">
+													<button class="activity_content_details_later" id="later_3"></button>
+													<p class="activity_content_details_hint" id="hint_3"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_4">
+													<button class="activity_content_details_later" id="later_4"></button>
+													<p class="activity_content_details_hint" id="hint_4"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_5">
+													<button class="activity_content_details_later" id="later_5"></button>
+													<p class="activity_content_details_hint" id="hint_5"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_6">
+													<button class="activity_content_details_later" id="later_6"></button>
+													<p class="activity_content_details_hint" id="hint_6"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_7">
+													<button class="activity_content_details_later" id="later_7"></button>
+													<p class="activity_content_details_hint" id="hint_7"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+											<li>
+												<a href="#" class="user_img" id="user_img_8">
+													<button class="activity_content_details_later" id="later_8"></button>
+													<p class="activity_content_details_hint" id="hint_8"></p>
+												</a>
+												<a href="#" class="user_name">RedialC</a>
+												<p>投稿了</p>
+												<a href="#" class="works_name">【天依无缝系列】不给天依包子可是会生气的哟!( o｀ω′)ノ</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="activity_content_live">
+									<div class="activity_content_live_new">
+										<p>暂时没有新动态了哦！</p>
+									</div>
+								</div>
+								<a href="#" id="activity_content_bottom_button">查看全部</a>
+							</div>
+						</li>
+						<li>
+							<a href="#"><span>稍后再看</span></a>
+						</li>
+						<li>
+							<a href="#"><span>收藏夹</span></a>
+						</li>
+						<li>
+							<a href="#"><span>历史</span></a>
+						</li>
+						<li>
+							<a href="#"><span>投稿</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="search">
+
+			</div>
+		</header>
+		<section class="content">
+
+		</section>
+		<footer class="footer">
+
+		</footer>
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
